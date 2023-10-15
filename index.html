@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1dff0cc8f4.js" crossorigin="anonymous"></script>
+    
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <header>
+
+            <div class="filterEntries">
+                <div class="entries">
+                    Show <select name="" id="table_size">
+                        <option value="10">10</option>
+                        <option value="20">20</option>
+                        <option value="50">50</option>
+                        <option value="100">100</option>
+                    </select> entries
+                </div>
+
+                <div class="filter">
+                    <label for="search">Search:</label>
+                    <input type="search" name="" id="search" placeholder="Enter name/city/post">
+                </div>
+            </div>
+
+            <div class="addMemberBtn">
+                <button>New member</button>
+            </div>
+
+        </header>
+
+
+        <table>
+
+            <thead>
+                <tr class="heading">
+                    <th>SL No</th>
+                    <th>Picture</th>
+                    <th>Employee ID</th>
+                    <th>Name</th>
+                    <th>Department</th>
+                    <th>Position</th>
+                    <th>Type</th>
+                    <th>Style Code</th>
+                    <th>Size</th>
+                    <th>Status</th>
+                    <th>Location</th>
+                    <th>Order Date</th>
+                    <th>Received Date</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+    
+            <tbody class="userInfo">
+               <!---- <tr><td class="empty" colspan="14" align="center">No data available in table</td></tr> -->
+               <!----
+                <tr>
+                    <td>1</td>
+                    <td><img src="pic1.png" alt="" width="40" height="40"></td>
+                    <td>429976</td>
+                    <td>Prathap</td>
+                    <td>Uniform room</td>
+                    <td>Attendant</td>
+                    <td>Shoe</td>
+                    <td>Shoe001</td>
+                    <td>M</td>
+                    <td>Pending</td>
+                    <td>Atp</td>
+                    <td>03-08-2010</td>
+                    <td>03-08-2011</td>
+
+                    <td>
+                        <button><i class="fa-regular fa-eye"></i></button>
+                        <button><i class="fa-regular fa-pen-to-square"></i></button>
+                        <button><i class="fa-regular fa-trash-can"></i></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td><img src="pic1.png" alt="" width="40" height="40"></td>
+                    <td>429976</td>
+                    <td>Prathap</td>
+                    <td>Uniform room</td>
+                    <td>Attendant</td>
+                    <td>Shoe</td>
+                    <td>Shoe001</td>
+                    <td>M</td>
+                    <td>Pending</td>
+                    <td>Atp</td>
+                    <td>03-08-2010</td>
+                    <td>03-08-2011</td>
+                    
+                    <td>
+                        <button><i class="fa-regular fa-eye"></i></button>
+                        <button><i class="fa-regular fa-pen-to-square"></i></button>
+                        <button><i class="fa-regular fa-trash-can"></i></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td><img src="pic1.png" alt="" width="40" height="40"></td>
+                    <td>429976</td>
+                    <td>Prathap</td>
+                    <td>Uniform room</td>
+                    <td>Attendant</td>
+                    <td>Shoe</td>
+                    <td>Shoe001</td>
+                    <td>M</td>
+                    <td>Pending</td>
+                    <td>Atp</td>
+                    <td>03-08-2010</td>
+                    <td>03-08-2011</td>
+                    
+                    <td>
+                        <button><i class="fa-regular fa-eye"></i></button>
+                        <button><i class="fa-regular fa-pen-to-square"></i></button>
+                        <button><i class="fa-regular fa-trash-can"></i></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td><img src="pic1.png" alt="" width="40" height="40"></td>
+                    <td>429976</td>
+                    <td>Prathap</td>
+                    <td>Uniform room</td>
+                    <td>Attendant</td>
+                    <td>Shoe</td>
+                    <td>Shoe001</td>
+                    <td>M</td>
+                    <td>Pending</td>
+                    <td>Atp</td>
+                    <td>03-08-2010</td>
+                    <td>03-08-2011</td>
+                    <td>
+                        <button><i class="fa-regular fa-eye"></i></button>
+                        <button><i class="fa-regular fa-pen-to-square"></i></button>
+                        <button><i class="fa-regular fa-trash-can"></i></button>
+                    </td>
+                </tr> -->
+            </tbody>
+        </table>
+        <footer>
+            <span class="showEntries">Showing 1 to 10 of 50 entries</span>
+            <div class="pagination">
+                <!----
+                <button>Prev</button>
+                <button class="active">1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>4</button>
+                <button>5</button>
+                <button>Next</button> -->
+            </div> 
+
+        </footer>
+    </div>
+    <!--Popup Form-->
+
+    <div class="dark_bg">
+
+        <div class="popup">
+             <header>
+                <h2 class="modalTitle">Fill the Form</h2>
+                <button class="closeBtn">&times;</button>
+             </header>
+
+             <div class="body">
+                <form action="#" id="myForm">
+                    <div class="imgholder">
+                        <label for="uploadimg" class="upload">
+                            <input type="file" name="" id="uploadimg" class="picture">
+                            <i class="fa-solid fa-plus"></i>
+                        </label>
+                        <img src="pic1.png" alt="" width="150" height="150" class="img">
+                    </div>
+
+                    <div class="inputFieldContainer">
+
+                        <div class="nameField">
+                            <div class="form_control">
+                                <label for="Employee Id">Employee Id:</label>
+                                <input type="text" name="" id="EmployeeId" required>
+                            </div>
+
+                            <div class="form_control">
+                                <label for="Name">Name:</label>
+                                <input type="text" name="" id="fName" required>
+                            </div>
+                        </div>
+                        <div class="name1Field">
+                            <div class="form_control">
+                                <label for="Department">Department:</label>
+                                <input type="text" name="" id="Department" required>
+                            </div>
+
+                            <div class="form_control">
+                                <label for="Position">Position:</label>
+                                <input type="text" name="" id="Position" required>
+                            </div>
+                        </div>
+
+                        <div class="ageCityField">
+                            <div class="form_control">
+                                <label for="Type">Type:</label>
+                                <input type="text" name="" id="Type" required>
+                            </div>
+
+                            <div class="form_control">
+                                <label for="stylecode">Style Code:</label>
+                                <input type="text" name="" id="stylecode" required>
+                            </div>
+                        </div>
+
+                        <div class="postSalary">
+                            <div class="form_control">
+                                <label for="Size">Size:</label>
+                                <input type="text" name="" id="Size" required>
+                            </div>
+
+                            <div class="form_control">
+                                <label for="Status">Status:</label>
+                                <input type="text" name="" id="Status" required>
+                            </div>
+                        </div>
+
+                        <div class="form_control">
+                            <label for="Location">Location:</label>
+                            <input type="text" name="" id="locations" required>
+                        </div>
+
+                        <div class="form_control">
+                            <label for="Date">Request Date:</label>
+                            <input type="Date" name="" id="reqDate" required>
+                        </div>
+
+                        <div class="form_control">
+                            <label for="Date2">Assigned Date:</label>
+                            <input type="date" name="" id="assDate" required>
+                        </div>
+                    </div>
+                </form>
+             </div>
+
+             <footer class="popupFooter">
+                <button form="myForm" class="submitBtn">Submit</button>
+             </footer>
+        </div>
+
+    </div>
+
+   
+
+    <script src="script.js"></script>
+</body>
+</html>
