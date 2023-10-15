@@ -193,19 +193,19 @@ function showInfo(){
 showInfo()
 
 
-function readInfo(pic,EmployeeId,fName,Department,Position,Type,stylecode,Size,Status,locations,reqDate,assDate){
+function readInfo(pic,Id,fname,department,position,type,Stylecode,size,status,locationss,reqDates,assDates){
     imginput.src=pic,
-    EmployeeId.value=EmployeeId,
-    fName.value=fName,
-    Department.value=Department,
-    Position.value=Position,
-    Type.value=Type,
-    stylecode.value=stylecode,
-    Size.value=Size,
-    Status.value=Status,
-    locations.value=locations,
-    reqDate.value=reqDate,
-    assDate.value=assDate
+    EmployeeId.value=Id,
+    fName.value=fname,
+    Department.value=department,
+    Position.value=position,
+    Type.value=type,
+    stylecode.value=Stylecode,
+    Size.value=size,
+    Status.value=status,
+    locations.value=locationss,
+    reqDate.value=reqDates,
+    assDate.value=assDates
 
 
     darkbg.classList.add('active')
@@ -222,7 +222,7 @@ function readInfo(pic,EmployeeId,fName,Department,Position,Type,stylecode,Size,S
 }
 
 
-function editInfo(id,pic,EmployeeId,fName,Department,Position,Type,stylecode,Size,Status,locations,reqDate,assDate){
+function editInfo(id,pic,Id,fname,department,position,type,Stylecode,size,status,locationss,reqDates,assDates){
     isEdit=true
     editID=id
 
@@ -246,17 +246,17 @@ function editInfo(id,pic,EmployeeId,fName,Department,Position,Type,stylecode,Siz
     }
 
     imginput.src=pic,
-    EmployeeId.value=EmployeeId,
-    fName.value=fName,
-    Department.value=Department,
-    Position.value=Position,
-    Type.value=Type,
-    stylecode.value=stylecode,
-    Size.value=Size,
-    Status.value=Status,
-    locations.value=locations,
-    reqDate.value=reqDate,
-    assDate.value=assDate
+    EmployeeId.value=Id,
+    fName.value=fname,
+    Department.value=department,
+    Position.value=position,
+    Type.value=type,
+    stylecode.value=Stylecode,
+    Size.value=size,
+    Status.value=status,
+    locations.value=locationss,
+    reqDate.value=reqDates,
+    assDate.value=assDates
 
     darkbg.classList.add('active')
     popupform.classList.add('active')

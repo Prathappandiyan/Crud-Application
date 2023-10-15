@@ -25,7 +25,7 @@ body{
     justify-content: center;
     align-items: flex-start;
     min-height: 100vh;
-    background: linear-gradient(var(--red1) 50%, var(--dark2) 50%);
+    background: /*linear-gradient(var(--red1) 50%, var(--dark8) 50%);*/whitesmoke
 }
 
 
@@ -86,14 +86,14 @@ body{
 
 header .addMemberBtn button, .popup header .closeBtn, .popup footer .submitBtn{
     padding: 9px 14px;
-    color: var(--dark8);
+    color: (var(--dark8));
     background: transparent;
     font-size: 16px;
     cursor: pointer;
     pointer-events: auto;
     outline: none;
     border: 1px solid var(--dark6);
-    background: var(--dark4);
+    background: (var(--dark4));
     border-radius: 5px;
 }
 
@@ -120,7 +120,7 @@ table .heading th:hover{
 
 table tr th, table tr td{
     padding:3px 15px;
-    color: var(--dark8);
+    color: (--dark8);
     vertical-align: middle;
 }
 
@@ -260,7 +260,7 @@ table tr .empty{
 
 .popup{
     border-radius: 5px;
-    box-shadow: 3px 3px 20px rgba(0,0,0,0.3);
+    box-shadow: 3px 3px 20px rgb(255, 224, 224);
     background: var(--dark6);
     transition: 0.4s;
     user-select: none;
